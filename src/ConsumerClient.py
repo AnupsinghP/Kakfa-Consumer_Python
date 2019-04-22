@@ -22,7 +22,7 @@ class ConsumerClient:
 
 
 if __name__ == '__main__':
-    '''parser = argparse.ArgumentParser(description='Reading from ftp server for family 5N.')
+    '''parser = argparse.ArgumentParser(description='Kafka-Consumer.')
     parser.add_argument('--topic', type=str,
                         help='Topic to read out from',
                         required=True)
